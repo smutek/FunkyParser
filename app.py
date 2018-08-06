@@ -1,8 +1,12 @@
 import csv
+import os
 
 if __name__ == "__main__":
-    file_path = "data/csv/bio.csv"
-    save_path = "data/processed/bio_processed.csv"
+    csv_directory = "data/csv/"
+    save_directory = "data/processed/"
+
+    file_path = "data/csv/JHSPH.csv"
+    save_path = "data/processed/JHSPH_processed.csv"
     headers = []
     total_sections = 0
     starting_pages = 0
