@@ -14,27 +14,55 @@ if __name__ == '__main__':
         reader = csv.reader(csv_file, delimiter=',')
         # loop over the contents
         i = 0
+        section_starting_pages = 0
+        section_removed_pages = 0
+        section_ending_pages = 0
+
         for row in reader:
             # Grab the headers
             if i == 0:
                 print("Headers here.")
             # is this a section
             elif not row[0].startswith("http") and not row[0] == "":
+                # yes, this is a section
+                section_name = row[0]
+                # print the previous section stats if starting new
+                if total_sections:
+                    section_ending_pages = section_starting_pages - section_removed_pages
+                    print("There were {} URLS in the {} section, {} URLs were "
+                          "removed leaving {} remaining.".format(section_starting_pages,
+                                                                 section_name, section_removed_pages,
+                                                                 section_ending_pages))
                 print("Here is a section")
+                total_sections += 1
+                # reset section vars
+                section_starting_pages = 0
+                section_removed_pages = 0
+                section_ending_pages = 0
                 print(row[0])
+            # this is a URL
             elif row[0].startswith("http"):
+                # increment total pages
+                starting_pages += 1
+                # increment section pages
+                section_starting_pages += 1
+                # does it end with index.html
                 if not row[0].endswith("index.html"):
+                    # keeper
                     print(row[0])
+                # remove any occurrence of index.html
                 else:
+                    # throw away
+                    removed_pages += 1
+                    section_removed_pages += 1
                     print("86 => " + row[0])
             else:
                 continue
             i += 1
 
-    #print("{} pages were removed.".format(removed_pages))
+    ending_pages = starting_pages - removed_pages
 
-    # remove any occurrence of index.html
-
-    # get counts of all the things
+    print("There were {} pages in {} sections to start, {} pages were removed and {} pages "
+          "remain.".format(starting_pages, total_sections, removed_pages, ending_pages))
 
     # save a modified csv in a dialect that excel likes
