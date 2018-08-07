@@ -1,20 +1,60 @@
-data/csv/BioChem.csv: 144 URLs total across 14 sections (162 processed, 18 removed)
-
-data/csv/BioStats.csv: 103 URLs total across 9 sections (139 processed, 36 removed)
-
-data/csv/EHE.csv: 283 URLs total across 12 sections (367 processed, 84 removed)
-
 data/csv/Epidemiology.csv: 189 URLs total across 23 sections (236 processed, 47 removed)
 
-data/csv/PopFam.csv: 97 URLs total across 15 sections (125 processed, 28 removed)
+data/csv/JHSPH.csv: 35063 URLs total across 0 sections (37187 processed, 2124 removed)
+
+data/csv/BioChem.csv: 144 URLs total across 14 sections (162 processed, 18 removed)
 
 data/csv/MMI.csv: 39 URLs total across 14 sections (66 processed, 27 removed)
 
 data/csv/MentalHealth.csv: 80 URLs total across 14 sections (140 processed, 60 removed)
 
-data/csv/IntHealth.csv: 538 URLs total across 20 sections (599 processed, 61 removed)
+data/csv/BioStats.csv: 103 URLs total across 9 sections (139 processed, 36 removed)
 
 data/csv/HPM.csv: 188 URLs total across 18 sections (228 processed, 40 removed)
 
+data/csv/IntHEalth.csv: 538 URLs total across 20 sections (599 processed, 61 removed)
+
+data/csv/PopFam.csv: 97 URLs total across 15 sections (125 processed, 28 removed)
+
+data/csv/EHE.csv: 283 URLs total across 12 sections (367 processed, 84 removed)
+
+data/csv/Epidemiology.csv: 189 URLs total across 23 sections (236 processed, 47 removed)
+
 data/csv/JHSPH.csv: 35063 URLs total across 0 sections (37187 processed, 2124 removed)
+
+data/csv/BioChem.csv: 144 URLs total across 14 sections (162 processed, 18 removed)
+
+data/csv/MMI.csv: 39 URLs total across 14 sections (66 processed, 27 removed)
+
+data/csv/MentalHealth.csv: 80 URLs total across 14 sections (140 processed, 60 removed)
+
+data/csv/BioStats.csv: 103 URLs total across 9 sections (139 processed, 36 removed)
+
+data/csv/HPM.csv: 188 URLs total across 18 sections (228 processed, 40 removed)
+
+data/csv/IntHEalth.csv: 538 URLs total across 20 sections (599 processed, 61 removed)
+
+data/csv/PopFam.csv: 97 URLs total across 15 sections (125 processed, 28 removed)
+
+data/csv/EHE.csv: 283 URLs total across 12 sections (367 processed, 84 removed)
+
+data/csv/Epidemiology.csv: 189 URLs total across 23 sections (236 processed, 47 removed)
+
+data/csv/JHSPH.csv: 35063 URLs total across 0 sections (37187 processed, 2124 removed)
+
+data/csv/BioChem.csv: 144 URLs total across 14 sections (162 processed, 18 removed)
+
+data/csv/MMI.csv: 39 URLs total across 14 sections (66 processed, 27 removed)
+
+data/csv/MentalHealth.csv: 80 URLs total across 14 sections (140 processed, 60 removed)
+
+data/csv/BioStats.csv: 103 URLs total across 9 sections (139 processed, 36 removed)
+
+data/csv/HPM.csv: 188 URLs total across 18 sections (228 processed, 40 removed)
+
+data/csv/IntHEalth.csv: 538 URLs total across 20 sections (599 processed, 61 removed)
+
+data/csv/PopFam.csv: 97 URLs total across 15 sections (125 processed, 28 removed)
+
+data/csv/EHE.csv: 283 URLs total across 12 sections (367 processed, 84 removed)
 
